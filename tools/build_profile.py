@@ -132,6 +132,7 @@ INTERESTS = [
 ]
 HONOURS = [
     "Distinguished Alumnus, IIM Bangalore",
+    "Recognized by the President of India for a paper on re-engineering engineering education",
     "\"Literary Colonel\" for promoting Hindi literature",
     "\"BRAVO\" award, Freescale, for the ARM validation suite",
 ]

@@ -19,7 +19,7 @@ Swapnil Sapre has spent **24+ years** in semiconductors and embedded systems, ta
 | **Writes** | *Nuts and Bolts of Open Hardware* · *Python — a Kid's and Hardware Engineer's Perspective* · *Understanding Indian Music through Rhythms* · Hindi poetry *Noorana* and *Chuski* (as "Noor" / "Sopaan Noor") |
 | **Plays** | Tabla (Khairagarh, Shri Suresh Samant, Dr. Aneesh Pradhan) and Mridangam (late Dr. Nandyala Ramamurthy) · album *Raam Gunjan* |
 | **Sings** | Ghazal & nazm, bhajan, abhang, kirtan, Hindustani and Carnatic repertoire, folk and film |
-| **Honours** | **Distinguished Alumnus, IIM Bangalore** · "Literary Colonel" (Hindi literature) · Freescale "BRAVO" award |
+| **Honours** | **Distinguished Alumnus, IIM Bangalore** · Recognized by the President of India (paper on re-engineering engineering education) · "Literary Colonel" (Hindi literature) · Freescale "BRAVO" award |
 | **Interests** | Dharma & the poet-saints · Jyotish (Indian astrology) · Kho Kho & Kabaddi · solo travel · Nada Yoga · open hardware |
 | **Studied** | M.S. VLSI CAD (Manipal) · IIM Bangalore PGSEM · IIT Bombay DLP Embedded Systems · B.E. E&TC (BIT Durg) |
 
