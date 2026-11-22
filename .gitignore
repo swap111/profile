@@ -1,0 +1,6 @@
+# Private: full resume has phone + personal emails — never publish
+Resume_*
+# Original source docs at repo root (published copies live in docs/)
+/*.pdf
+/*.docx
+__pycache__/
