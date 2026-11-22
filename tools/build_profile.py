@@ -56,6 +56,15 @@ VENTURES = [
     ("Industry showcases", "Proof-of-concept products for MWC 2018/2019 and COMPUTEX 2019, including a 1 TB SD card and the first SD-form-factor NVMe card."),
 ]
 
+ADVISOR_TO = [
+    ("Yadot (yadot.ai)", "Strategic Advisor · music learning through robotics, XR and AI"),
+    ("Mobil-Flex (mobil-flex.com)", "Advisor · PDC Personal Data Center, affordable edge HPC"),
+    ("Invariant Systems (invariantsystems.io)", "Advisor · verification for AI-assisted chip design"),
+    ("Qailash Labs (qailash.com)", "Advisor · sovereign custom silicon and sensor readout"),
+]
+ADVISORY_AREAS = ("Semiconductor engineering · Embedded & system engineering · Operations & production (foundry, OSAT, "
+                  "test, qualification, HVM) · Production skilling · Soft skills & leadership · Ongoing professional "
+                  "support (due diligence, design and program reviews, team building)")
 SERVICES = [
     ("Deep-tech & semiconductor advisory", "FPGA prototyping with PPA trade-offs; chip development, tape-out readiness and production operations; edge-AI platform strategy; extreme-environment microelectronics."),
     ("Strategy for startups & services firms", "Deep-tech go-to-market and customer acquisition; L&D strategy; program management; art, music and wellness ventures."),
@@ -73,7 +82,7 @@ EXPERTISE = [
 ]
 
 CAREER = [
-    ("2026 – now", "Consultant & Advisor", "Independent", "Part-time engagements in FPGA prototyping, deep-tech GTM, AI vision chips, cryogenic ICs, AR/VR learning, and teaching."),
+    ("2026 – now", "Consultant & Advisor", "Independent", "Strategic advisor to Yadot, Mobil-Flex, Invariant Systems and Qailash Labs. Part-time engagements in FPGA prototyping, deep-tech GTM, AI vision chips, cryogenic ICs, AR/VR learning, and teaching."),
     ("2020 – now", "Head – Chip and Systems Engineering", "Ambient Scientific", "Leads the full silicon-to-system lifecycle of ultra-low-power AI processors at the AI processor company: chip spec to GDS2, pre- and post-silicon verification and validation, bring-up, SDK and system software, test/evaluation/customer boards, and tape-out to high-volume production; built the always-on audio wake-word and vision validation methodology that opened the platform to ML developers; leads cross-functional chip, system and software teams with global partners."),
     ("2012 – 2020", "System Architect, Technologist & Product Line Manager", "Western Digital", "Flash-storage products (SD, microSD, SSD, NVMe) from SoC architecture to certified shipping product; ran the SD/microSD line."),
     ("2011 – 2012", "Senior Design Engineer", "AMD", "Fusion SoC verification; led the global graphics OVC; DDR3 PHY DFx."),
@@ -240,6 +249,10 @@ def build_docx(path):
     heading("Builder · Innovator · Entrepreneur")
     for a, b in VENTURES: bullet(a, b)
 
+    heading("Advisory associations")
+    for a, b in ADVISOR_TO: bullet(a, b)
+    p = doc.add_paragraph(); run(p, "Advisory areas: ", bold=True); run(p, ADVISORY_AREAS, color=SOFT)
+
     heading("Advisory · Consulting · Coaching")
     for a, b in SERVICES: bullet(a, b)
 
@@ -390,6 +403,10 @@ def build_pdf(path):
     story += section("Builder · Innovator · Entrepreneur")
     story += [b(x, y) for x, y in VENTURES]
 
+    story += section("Advisory associations")
+    story += [b(x, y) for x, y in ADVISOR_TO]
+    story.append(Paragraph(f"<font name='{BB}' color='#{INK}'>Advisory areas:</font> {ADVISORY_AREAS}", body))
+
     story += section("Advisory · Consulting · Coaching")
     story += [b(x, y) for x, y in SERVICES]
 
@@ -438,10 +455,9 @@ def build_pdf(path):
                              ("RIGHTPADDING", (0, 0), (0, -1), 8 * mm)]))
     story.append(two)
     logo = ROOT / "assets" / "img" / "swapnaloka_logo.png"
-    cta = ParagraphStyle("cta", fontName=SI, fontSize=11.5, leading=16, textColor=C(NAVY), alignment=1)
-    story.append(KeepTogether([Spacer(1, 6 * mm), Image(str(logo), 28 * mm, 28 * mm), Spacer(1, 2 * mm),
-              Paragraph("Open for advisory, consulting, coaching, mentoring and speaking engagements, "
-                        "and always happy to make music and poetry together.", cta)]))
+    cta = ParagraphStyle("cta", fontName=SI, fontSize=10, leading=13, textColor=C(NAVY), alignment=1)
+    story.append(KeepTogether([Spacer(1, 2 * mm),
+              Paragraph("Open for advisory, consulting, coaching, mentoring and speaking, and for making music and poetry together.", cta)]))
 
     doc.build(story)
 

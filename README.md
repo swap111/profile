@@ -13,7 +13,7 @@ Swapnil Sapre has spent **24+ years** in semiconductors and embedded systems, ta
 
 | | |
 |---|---|
-| **Now** | Head – Chip and Systems Engineering, **Ambient Scientific**: AI-processor chip, system and system software, spec to volume (2020–) · Independent consultant & advisor (2026–) |
+| **Now** | Head – Chip and Systems Engineering, **Ambient Scientific**: AI-processor chip, system and system software, spec to volume (2020–) · Strategic advisor to [Yadot](https://yadot.ai/), [Mobil-Flex](https://mobil-flex.com/), [Invariant Systems](https://invariantsystems.io/) and [Qailash Labs](https://qailash.com/) (2026–) |
 | **Before** | Western Digital (system architect, product line manager: SD / microSD / SSD / NVMe) · AMD · Freescale/NXP · Mindtree · Wipro |
 | **Builds** | [Chiluka](https://chiluka.online) · [SwaraKul](https://swarakul.online) · **Damruki**: School of Rhythm & Seven Swaras (founder) · [**Suphala Care**](https://suphalacare.com): holistic nutrition & wellness with Dr Suguna Sapre, plus the [SuViva](https://suphalacare.com/suviva/) network |
 | **Writes** | *Nuts and Bolts of Open Hardware* · *Python — a Kid's and Hardware Engineer's Perspective* · *Understanding Indian Music through Rhythms* · Hindi poetry *Noorana* (bhaav sangrah, as "Sopaan Noor"); *Chuski* in progress |
@@ -48,7 +48,12 @@ python tools/build_profile.py
 ## Site structure
 
 ```
-index.html              single-page site (all copy lives here)
+index.html              Home: hero, about, explore tiles, connect
+silicon.html            Silicon: Ambient Scientific spotlight + career timeline, education, papers
+advisory.html           Advisory: companies advised, advisory areas, services, core expertise
+ventures.html           Ventures: Chiluka, SwaraKul, Damruki, Suphala Care
+writing.html            Writing & Poetry: books, LinkedIn articles/posts, Hindi poetry (Noor)
+music.html              Music & Arts: repertoire, YouTube grid, beyond work
 assets/css/style.css    design tokens (navy · gold · saffron · cream), light + dark mode
 assets/js/main.js       mobile menu, scroll reveal, footer year
 assets/img/             portrait, logos, favicon; books/ = Amazon cover images
@@ -56,7 +61,7 @@ docs/                   downloadable PDFs / DOCX
 tools/build_profile.py  generates the profile PDF + DOCX
 ```
 
-Page sections: **Hero → About → Builder (ventures, with Damruki and Suphala Care in focus) → Advisory / consulting / coaching + expertise → Career timeline, education, papers → Writing (book covers with Amazon links, LinkedIn articles and posts) → Hindi poetry (Noor) → Music (repertoire + filterable YouTube thumbnail grid) → Beyond work (Dharma, Jyotish, Kho Kho & Kabaddi, travel…) → Connect**.
+Every page shares the same top menu (Home · Silicon · Advisory · Ventures · Writing & Poetry · Music & Arts · Connect), with the current page highlighted, and the same footer. The pages are plain HTML, so edit each file directly.
 
 ### Preview locally
 

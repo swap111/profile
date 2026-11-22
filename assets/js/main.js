@@ -29,7 +29,7 @@
   if (yr) yr.textContent = new Date().getFullYear();
 
   if ('IntersectionObserver' in window) {
-    var els = document.querySelectorAll('.section h2, .card, .focus__item, .cover, .article, .hobby, .timeline li, .newsletter');
+    var els = document.querySelectorAll('.section h2, .card, .focus__item, .cover, .article, .hobby, .timeline li, .newsletter, .explore a, .assoc__card');
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
