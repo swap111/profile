@@ -12,11 +12,24 @@
     });
   }
 
+  // video mood filter
+  var fbtns = document.querySelectorAll('.vfilter button');
+  fbtns.forEach(function (b) {
+    b.addEventListener('click', function () {
+      var f = b.getAttribute('data-f');
+      fbtns.forEach(function (x) { x.classList.toggle('on', x === b); });
+      document.querySelectorAll('.vid').forEach(function (v) {
+        var cats = (v.getAttribute('data-c') || '').split(' ');
+        v.classList.toggle('hide', f !== 'all' && cats.indexOf(f) < 0);
+      });
+    });
+  });
+
   var yr = document.getElementById('yr');
   if (yr) yr.textContent = new Date().getFullYear();
 
   if ('IntersectionObserver' in window) {
-    var els = document.querySelectorAll('.section h2, .card, .focus__item, .book, .timeline li, .newsletter, .video');
+    var els = document.querySelectorAll('.section h2, .card, .focus__item, .cover, .article, .hobby, .timeline li, .newsletter');
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }

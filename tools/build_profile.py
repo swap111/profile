@@ -16,7 +16,8 @@ NAVY, GOLD, SAFFRON, INK, SOFT = "10204A", "B8862F", "D9732B", "16213A", "4A5571
 TITLE = "Swapnil Sapre"
 TAGLINE = "Builder · Innovator · Entrepreneur"
 ROLES = ("Semiconductor, Embedded-Systems & Deep-Tech AI Veteran · Advisor · Consultant · "
-         "Coach · Program Leader · Poet · Musician")
+         "Coach · Program Leader · Hindi Poet · Ghazal Singer · Percussionist · "
+         "Distinguished Alumnus, IIM Bangalore")
 CONTACT = [
     ("Location", "Bengaluru, India"),
     ("LinkedIn", "linkedin.com/in/swapnils29"),
@@ -39,8 +40,10 @@ ABOUT = [
     "emerging technology organizations on turning ideas into viable, scalable, market-ready products. "
     "He builds ventures where technology meets culture, music and well-being, and he mentors engineers "
     "and founders.",
-    "He is also a trained Tabla and Mridangam player, the composer of the bhajan album \"Raam Gunjan\", "
-    "the founder of the Damruki school of rhythm, and a Hindi poet who writes as \"Noor\" / \"Sopaan Noor\".",
+    "He is a Distinguished Alumnus of IIM Bangalore. He is also a trained Tabla and Mridangam player, a singer "
+    "of ghazals, bhajans and abhangs, the composer of the bhajan album \"Raam Gunjan\", the founder of the "
+    "Damruki school of rhythm, and a Hindi poet who writes as \"Noor\" / \"Sopaan Noor\". He studies Dharma "
+    "and Jyotish (Indian astrology) and is a fan of Kho Kho and Kabaddi.",
 ]
 QUOTE = "Building technology with purpose, businesses with responsibility, teams with trust, and people with empathy."
 
@@ -80,11 +83,17 @@ CAREER = [
 ]
 
 BOOKS = [
-    ("Nuts and Bolts of Open Hardware", "Technology"),
-    ("Python — a Kid's and Hardware Engineer's Perspective", "Technology"),
-    ("Understanding Indian Music through Rhythms", "Music course book"),
+    ("Nuts and Bolts of Open Hardware", "Technology, 2012 (ISBN 9781300339861)"),
+    ("Python — a Kid's and Hardware Engineer's Perspective", "Technology, 2012 (ISBN 9781300339403)"),
+    ("Understanding Indian Music through Rhythms", "Music course book, 2016 (ISBN 9781365588259)"),
     ("Noorana", "Hindi poetry, as \"Noor\""),
     ("Chuski", "Hindi poetry"),
+]
+ARTICLES = [
+    "Mungi Udali Akashi: When the Small Transcends the Infinite (LinkedIn, Nov 2026)",
+    "How to Select the Right AI Model for Your Edge Hardware (LinkedIn, Nov 2026)",
+    "SDK-First Thinking: Building Developer-Friendly AI Platforms (LinkedIn, Nov 2026)",
+    "Regular LinkedIn posts on SoC verification craft: bus bridges, regressions, testbench libraries, CSR maps",
 ]
 PAPERS = [
     "SNUG 2007: Constrained Driven Random based Methodology for Verification of Generic Designs",
@@ -105,9 +114,31 @@ MUSIC = [
     "he plays Tabla and Mridangam with flautist Samarth on the \"Bansuri Beats\" YouTube series.",
 ]
 
+POETRY = [
+    "Writes Hindi poetry as \"Noor\" (light) and \"Sopaan Noor\" (steps of light): ghazals, nazms, geet and "
+    "bhajans about love, longing, devotion, family, Dharma and everyday joy. Collections: \"Noorana\" and \"Chuski\".",
+    "Honoured as a \"Literary Colonel\" for promoting Hindi literature. Organizes Kavi Sammelans and poetry "
+    "ensembles, and often sets his own verse to tune and taal.",
+]
+REPERTOIRE = ("Ghazal & Nazm · Khayal, Dhrupad, Prabandh · Carnatic kritis (Thyagaraja, Purandaradasa) · "
+              "Bhajan, Kirtan, Abhang (Hindi, Marathi, Kannada) · Qawwali & Sufi · Folk & film")
+INTERESTS = [
+    ("Dharma & the saints", "scriptures and poet-saints, from Sant Muktabai to Purandaradasa"),
+    ("Jyotish", "Vedic astrology: grahas, nakshatras, panchang"),
+    ("Desi sports", "Kho Kho and Kabaddi"),
+    ("Solo travel", "mountains, villages, riverbeds, temples and folk rhythms"),
+    ("Nada Yoga & wellness", "sound as meditation; holistic education"),
+    ("Tinkering", "FPGA boards, RISC-V cores, Python, teaching kids to build"),
+]
+HONOURS = [
+    "Distinguished Alumnus, IIM Bangalore",
+    "\"Literary Colonel\" for promoting Hindi literature",
+    "\"BRAVO\" award, Freescale, for the ARM validation suite",
+]
+
 EDUCATION = [
     ("M.S., VLSI CAD", "Manipal University"),
-    ("PGSEM, Enterprise Management (coursework)", "IIM Bangalore"),
+    ("PGSEM, Enterprise Management", "IIM Bangalore · Distinguished Alumnus"),
     ("DLP, Embedded Systems", "IIT Bombay (Powai)"),
     ("PG Diploma, VLSI", "Bitmapper Integration Technologies"),
     ("B.E., Electronics & Telecommunication", "BIT Durg"),
@@ -230,9 +261,22 @@ def build_docx(path):
     for title, kind in BOOKS: bullet(title, kind)
     for pp in PAPERS: bullet(pp)
 
+    for a in ARTICLES: bullet(a)
+
+    heading("Hindi poetry · Noor")
+    for para in POETRY:
+        p = doc.add_paragraph(); run(p, para, color=SOFT)
+
     heading("Music & arts")
     for para in MUSIC:
         p = doc.add_paragraph(); run(p, para, color=SOFT)
+    p = doc.add_paragraph(); run(p, "Repertoire: ", bold=True); run(p, REPERTOIRE, color=SOFT)
+
+    heading("Honours")
+    for h in HONOURS: bullet(h)
+
+    heading("Beyond work")
+    for a, b in INTERESTS: bullet(a, b)
 
     heading("Education")
     for deg, inst in EDUCATION: bullet(deg, inst)
@@ -370,8 +414,20 @@ def build_pdf(path):
     story += [b(f"<i>{t}</i>", k) for t, k in BOOKS]
     story += [b(x) for x in PAPERS]
 
+    story += [b(x) for x in ARTICLES]
+
+    story += section("Hindi poetry · Noor")
+    story += [Paragraph(x, body) for x in POETRY]
+
     story += section("Music & arts")
     story += [Paragraph(x, body) for x in MUSIC]
+    story.append(Paragraph(f"<font name='{BB}' color='#{INK}'>Repertoire:</font> {REPERTOIRE}", body))
+
+    story += section("Honours")
+    story += [b(x) for x in HONOURS]
+
+    story += section("Beyond work")
+    story += [b(x, y) for x, y in INTERESTS]
 
     half = (W - 2 * M) / 2 - 4 * mm
     left = section("Education", half) + [b(d, i) for d, i in EDUCATION]
@@ -382,9 +438,9 @@ def build_pdf(path):
     story.append(two)
     logo = ROOT / "assets" / "img" / "swapnaloka_logo.png"
     cta = ParagraphStyle("cta", fontName=SI, fontSize=11.5, leading=16, textColor=C(NAVY), alignment=1)
-    story += [Spacer(1, 18 * mm), Image(str(logo), 38 * mm, 38 * mm), Spacer(1, 4 * mm),
+    story.append(KeepTogether([Spacer(1, 6 * mm), Image(str(logo), 28 * mm, 28 * mm), Spacer(1, 2 * mm),
               Paragraph("Open for advisory, consulting, coaching, mentoring and speaking engagements, "
-                        "and always happy to make music and poetry together.", cta)]
+                        "and always happy to make music and poetry together.", cta)]))
 
     doc.build(story)
 

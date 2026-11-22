@@ -18,7 +18,10 @@ Swapnil Sapre has spent **24+ years** in semiconductors and embedded systems, ta
 | **Builds** | [Chiluka](https://chiluka.online) · [SwaraKul](https://swarakul.online) · **Damruki**: School of Rhythm & Seven Swaras (founder) · [**Suphala Care**](https://suphalacare.com): holistic nutrition & wellness with Dr Suguna Sapre, plus the [SuViva](https://suphalacare.com/suviva/) network |
 | **Writes** | *Nuts and Bolts of Open Hardware* · *Python — a Kid's and Hardware Engineer's Perspective* · *Understanding Indian Music through Rhythms* · Hindi poetry *Noorana* and *Chuski* (as "Noor" / "Sopaan Noor") |
 | **Plays** | Tabla (Khairagarh, Shri Suresh Samant, Dr. Aneesh Pradhan) and Mridangam (late Dr. Nandyala Ramamurthy) · album *Raam Gunjan* |
-| **Studied** | M.S. VLSI CAD (Manipal) · IIM Bangalore PGSEM coursework · IIT Bombay DLP Embedded Systems · B.E. E&TC (BIT Durg) |
+| **Sings** | Ghazal & nazm, bhajan, abhang, kirtan, Hindustani and Carnatic repertoire, folk and film |
+| **Honours** | **Distinguished Alumnus, IIM Bangalore** · "Literary Colonel" (Hindi literature) · Freescale "BRAVO" award |
+| **Interests** | Dharma & the poet-saints · Jyotish (Indian astrology) · Kho Kho & Kabaddi · solo travel · Nada Yoga · open hardware |
+| **Studied** | M.S. VLSI CAD (Manipal) · IIM Bangalore PGSEM · IIT Bombay DLP Embedded Systems · B.E. E&TC (BIT Durg) |
 
 **Find him on:** [LinkedIn](https://www.linkedin.com/in/swapnils29/) · [YouTube: Bansuri Beats](https://youtube.com/playlist?list=PLEvT8t4QvqOaNjM0dtJCjaw-OOXxShNex) · [Facebook](https://www.facebook.com/swapsap1) · [Books on Amazon](https://www.amazon.in/s?i=stripbooks&rh=p_27%3ASwapnil%2BSapre&ref=dp_byline_sr_book_1)
 
@@ -48,12 +51,12 @@ python tools/build_profile.py
 index.html              single-page site (all copy lives here)
 assets/css/style.css    design tokens (navy · gold · saffron · cream), light + dark mode
 assets/js/main.js       mobile menu, scroll reveal, footer year
-assets/img/             portrait, SwapnaLoka logo, favicon
+assets/img/             portrait, logos, favicon; books/ = Amazon cover images
 docs/                   downloadable PDFs / DOCX
 tools/build_profile.py  generates the profile PDF + DOCX
 ```
 
-Page sections: **Hero → About → Builder (ventures, with Damruki and Suphala Care in focus) → Advisory / consulting / coaching + expertise → Career timeline, education, papers → Books & newsletter → Music (YouTube playlist embed) → Connect**.
+Page sections: **Hero → About → Builder (ventures, with Damruki and Suphala Care in focus) → Advisory / consulting / coaching + expertise → Career timeline, education, papers → Writing (book covers with Amazon links, LinkedIn articles and posts) → Hindi poetry (Noor) → Music (repertoire + filterable YouTube thumbnail grid) → Beyond work (Dharma, Jyotish, Kho Kho & Kabaddi, travel…) → Connect**.
 
 ### Preview locally
 
@@ -83,9 +86,9 @@ It works the same on any static host (Hostinger, Netlify, Cloudflare Pages). Jus
 ## Ideas for next steps
 
 - Custom domain, for example `swapnaloka.in`, and an Open Graph share image.
-- Real book covers and ASIN links once the Amazon listings are confirmed.
+- Amazon links and covers for *Noorana* and *Chuski* (currently stylised covers that link to the author search).
+- A few selected poems by "Noor" (Devanagari) and recordings of ghazals.
 - A "Writing" feed that pulls the latest SwapnaLoka newsletter articles from LinkedIn.
-- Hindi poetry page (Devanagari) with a few selected poems by "Noor".
 - Testimonials, using the LinkedIn recommendations.
 - A booking or contact form for advisory and speaking enquiries.
 
