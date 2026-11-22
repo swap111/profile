@@ -13,15 +13,15 @@ Swapnil Sapre has spent **24+ years** in semiconductors and embedded systems, ta
 
 | | |
 |---|---|
-| **Now** | AVP – Engineering, **Ambient Scientific**: AI-processor chip, system and system software, spec to volume (2020–) · Independent consultant & advisor (2026–) |
+| **Now** | Head – Chip and Systems Engineering, **Ambient Scientific**: AI-processor chip, system and system software, spec to volume (2020–) · Independent consultant & advisor (2026–) |
 | **Before** | Western Digital (system architect, product line manager: SD / microSD / SSD / NVMe) · AMD · Freescale/NXP · Mindtree · Wipro |
 | **Builds** | [Chiluka](https://chiluka.online) · [SwaraKul](https://swarakul.online) · **Damruki**: School of Rhythm & Seven Swaras (founder) · [**Suphala Care**](https://suphalacare.com): holistic nutrition & wellness with Dr Suguna Sapre, plus the [SuViva](https://suphalacare.com/suviva/) network |
-| **Writes** | *Nuts and Bolts of Open Hardware* · *Python — a Kid's and Hardware Engineer's Perspective* · *Understanding Indian Music through Rhythms* · Hindi poetry *Noorana* and *Chuski* (as "Noor" / "Sopaan Noor") |
+| **Writes** | *Nuts and Bolts of Open Hardware* · *Python — a Kid's and Hardware Engineer's Perspective* · *Understanding Indian Music through Rhythms* · Hindi poetry *Noorana* (bhaav sangrah, as "Sopaan Noor") |
 | **Plays** | Tabla (Khairagarh, Shri Suresh Samant, Dr. Aneesh Pradhan) and Mridangam (late Dr. Nandyala Ramamurthy) · album *Raam Gunjan* |
 | **Sings** | Ghazal & nazm, bhajan, abhang, kirtan, Hindustani and Carnatic repertoire, folk and film |
-| **Honours** | **Distinguished Alumnus, IIM Bangalore** · Recognized by the President of India (paper on re-engineering engineering education) · "Literary Colonel" (Hindi literature) · Freescale "BRAVO" award |
+| **Honours** | Recognized by the President of India (paper on re-engineering engineering education) · "Literary Colonel" (Hindi literature) · Freescale "BRAVO" award |
 | **Interests** | Dharma & the poet-saints · Jyotish (Indian astrology) · Kho Kho & Kabaddi · solo travel · Nada Yoga · open hardware |
-| **Studied** | M.S. VLSI CAD (Manipal) · IIM Bangalore PGSEM · IIT Bombay DLP Embedded Systems · B.E. E&TC (BIT Durg) |
+| **Studied** | M.S. VLSI CAD (Manipal) · IIM Bangalore PGSEM, Software Enterprise Management (2.5-year programme) · IIT Bombay DLP Embedded Systems · B.E. E&TC (BIT Durg) |
 
 **Find him on:** [LinkedIn](https://www.linkedin.com/in/swapnils29/) · [YouTube: Bansuri Beats](https://youtube.com/playlist?list=PLEvT8t4QvqOaNjM0dtJCjaw-OOXxShNex) · [Facebook](https://www.facebook.com/swapsap1) · [Books on Amazon](https://www.amazon.in/s?i=stripbooks&rh=p_27%3ASwapnil%2BSapre&ref=dp_byline_sr_book_1)
 
@@ -86,7 +86,7 @@ It works the same on any static host (Hostinger, Netlify, Cloudflare Pages). Jus
 ## Ideas for next steps
 
 - Custom domain, for example `swapnaloka.in`, and an Open Graph share image.
-- Amazon links and covers for *Noorana* and *Chuski* (currently stylised covers that link to the author search).
+- A direct Amazon link for *Noorana* (currently links to the author search).
 - A few selected poems by "Noor" (Devanagari) and recordings of ghazals.
 - A "Writing" feed that pulls the latest SwapnaLoka newsletter articles from LinkedIn.
 - Testimonials, using the LinkedIn recommendations.

@@ -16,8 +16,7 @@ NAVY, GOLD, SAFFRON, INK, SOFT = "10204A", "B8862F", "D9732B", "16213A", "4A5571
 TITLE = "Swapnil Sapre"
 TAGLINE = "Builder · Innovator · Entrepreneur"
 ROLES = ("Semiconductor, Embedded-Systems & Deep-Tech AI Veteran · Advisor · Consultant · "
-         "Coach · Program Leader · Hindi Poet · Ghazal Singer · Percussionist · "
-         "Distinguished Alumnus, IIM Bangalore")
+         "Coach · Program Leader · Hindi Poet · Ghazal Singer · Percussionist")
 CONTACT = [
     ("Location", "Bengaluru, India"),
     ("LinkedIn", "linkedin.com/in/swapnils29"),
@@ -28,7 +27,7 @@ CONTACT = [
 STATS = [("24+", "years in semiconductors & embedded systems"),
          ("6+", "years leading AI-processor silicon"),
          ("Spec to HVM", "end-to-end product ownership"),
-         ("5", "books: technology, music, poetry")]
+         ("4", "books: technology, music, poetry")]
 
 ABOUT = [
     "Swapnil Sapre is a semiconductor and systems leader with over 24 years across ASIC/SoC design, "
@@ -36,13 +35,13 @@ ABOUT = [
     "manufacturing. He has held engineering and product roles at Ambient Scientific, Western Digital, "
     "AMD, Freescale/NXP, Mindtree and Wipro, which gives him an end-to-end view from system architecture "
     "and silicon to software, productization and commercial deployment.",
-    "Today he is AVP – Engineering at Ambient Scientific, the AI processor company, where he leads the full "
+    "Today he is Head – Chip and Systems Engineering at Ambient Scientific, the AI processor company, where he leads the full "
     "silicon-to-system journey of ultra-low-power AI processors: chip, boards, system software (SDK) and "
     "production, with cross-functional teams and global partners. He also advises deep-tech startups and "
     "emerging technology organizations on turning ideas into viable, scalable, market-ready products. "
     "He builds ventures where technology meets culture, music and well-being, and he mentors engineers "
     "and founders.",
-    "He is a Distinguished Alumnus of IIM Bangalore. He is also a trained Tabla and Mridangam player, a singer "
+    "He studied at IIM Bangalore in its rigorous 2.5-year PGSEM programme in Software Enterprise Management. He is also a trained Tabla and Mridangam player, a singer "
     "of ghazals, bhajans and abhangs, the composer of the bhajan album \"Raam Gunjan\", the founder of the "
     "Damruki school of rhythm, and a Hindi poet who writes as \"Noor\" / \"Sopaan Noor\". He studies Dharma "
     "and Jyotish (Indian astrology) and is a fan of Kho Kho and Kabaddi.",
@@ -75,7 +74,7 @@ EXPERTISE = [
 
 CAREER = [
     ("2026 – now", "Consultant & Advisor", "Independent", "Part-time engagements in FPGA prototyping, deep-tech GTM, AI vision chips, cryogenic ICs, AR/VR learning, and teaching."),
-    ("2020 – now", "AVP – Engineering", "Ambient Scientific", "Leads the full silicon-to-system lifecycle of ultra-low-power AI processors at the AI processor company: chip spec to GDS2, pre- and post-silicon verification and validation, bring-up, SDK and system software, test/evaluation/customer boards, and tape-out to high-volume production; built the always-on audio wake-word and vision validation methodology that opened the platform to ML developers; leads cross-functional chip, system and software teams with global partners."),
+    ("2020 – now", "Head – Chip and Systems Engineering", "Ambient Scientific", "Leads the full silicon-to-system lifecycle of ultra-low-power AI processors at the AI processor company: chip spec to GDS2, pre- and post-silicon verification and validation, bring-up, SDK and system software, test/evaluation/customer boards, and tape-out to high-volume production; built the always-on audio wake-word and vision validation methodology that opened the platform to ML developers; leads cross-functional chip, system and software teams with global partners."),
     ("2012 – 2020", "System Architect, Technologist & Product Line Manager", "Western Digital", "Flash-storage products (SD, microSD, SSD, NVMe) from SoC architecture to certified shipping product; ran the SD/microSD line."),
     ("2011 – 2012", "Senior Design Engineer", "AMD", "Fusion SoC verification; led the global graphics OVC; DDR3 PHY DFx."),
     ("2007 – 2011", "Module Lead", "Mindtree", "DMA controller architecture, a configurable SoC verification platform, DO-254 IP; clients included Intel and Nokia."),
@@ -88,8 +87,7 @@ BOOKS = [
     ("Nuts and Bolts of Open Hardware", "Technology, 2012 (ISBN 9781300339861)"),
     ("Python — a Kid's and Hardware Engineer's Perspective", "Technology, 2012 (ISBN 9781300339403)"),
     ("Understanding Indian Music through Rhythms", "Music course book, 2016 (ISBN 9781365588259)"),
-    ("Noorana", "Hindi poetry, as \"Noor\""),
-    ("Chuski", "Hindi poetry"),
+    ("Noorana", "Hindi poetry (bhaav sangrah), as \"Sopaan Noor\""),
 ]
 ARTICLES = [
     "Mungi Udali Akashi: When the Small Transcends the Infinite (LinkedIn, Nov 2026)",
@@ -118,7 +116,7 @@ MUSIC = [
 
 POETRY = [
     "Writes Hindi poetry as \"Noor\" (light) and \"Sopaan Noor\" (steps of light): ghazals, nazms, geet and "
-    "bhajans about love, longing, devotion, family, Dharma and everyday joy. Collections: \"Noorana\" and \"Chuski\".",
+    "bhajans about love, longing, devotion, family, Dharma and everyday joy. Collection: \"Noorana\" (bhaav sangrah).",
     "Honoured as a \"Literary Colonel\" for promoting Hindi literature. Organizes Kavi Sammelans and poetry "
     "ensembles, and often sets his own verse to tune and taal.",
 ]
@@ -133,7 +131,6 @@ INTERESTS = [
     ("Tinkering", "FPGA boards, RISC-V cores, Python, teaching kids to build"),
 ]
 HONOURS = [
-    "Distinguished Alumnus, IIM Bangalore",
     "Recognized by the President of India for a paper on re-engineering engineering education",
     "\"Literary Colonel\" for promoting Hindi literature",
     "\"BRAVO\" award, Freescale, for the ARM validation suite",
@@ -141,7 +138,7 @@ HONOURS = [
 
 EDUCATION = [
     ("M.S., VLSI CAD", "Manipal University"),
-    ("PGSEM, Enterprise Management", "IIM Bangalore · Distinguished Alumnus"),
+    ("PGSEM, Software Enterprise Management (2.5-year programme)", "IIM Bangalore"),
     ("DLP, Embedded Systems", "IIT Bombay (Powai)"),
     ("PG Diploma, VLSI", "Bitmapper Integration Technologies"),
     ("B.E., Electronics & Telecommunication", "BIT Durg"),

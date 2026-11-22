@@ -301,7 +301,7 @@ blockquote {
 .gold { color: var(--gold); font-weight: 600; }
 
 /* book shelf with real covers */
-.shelf { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.4rem; align-items: start; }
+.shelf { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.6rem; align-items: start; max-width: 940px; margin: 0 auto; }
 .cover { text-decoration: none; color: var(--ink); display: flex; flex-direction: column; }
 .cover img, .cover__art {
   width: 100%; aspect-ratio: 2/3; object-fit: cover; border-radius: 3px 8px 8px 3px;
@@ -315,7 +315,6 @@ blockquote {
 }
 .cover__art small { font: 500 .95rem var(--sans); opacity: .85; letter-spacing: .1em; }
 .cover__art--noor { background: radial-gradient(circle at 50% 30%, #f3c86a 0 18%, transparent 19%), linear-gradient(160deg, #1b3270, #0c1530); }
-.cover__art--chuski { background: radial-gradient(circle at 70% 25%, rgba(255,255,255,.2) 0 14%, transparent 15%), linear-gradient(160deg, #d9732b, #8a3b5c); }
 .cover__kind { font-size: .7rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
 .cover h4 { font-size: 1rem; margin: .25rem 0 .35rem; }
 .cover__buy { font-size: .88rem; font-weight: 600; color: var(--gold); }
@@ -385,7 +384,6 @@ blockquote {
 .hobby p { color: var(--ink-soft); font-size: .94rem; margin: 0; }
 
 @media (max-width: 1000px) {
-  .shelf { grid-template-columns: repeat(3, 1fr); }
   .vgrid { grid-template-columns: repeat(3, 1fr); }
   .articles, .hobbies, .repertoire { grid-template-columns: repeat(2, 1fr); }
 }
@@ -406,3 +404,9 @@ blockquote {
 .music__photo { margin: 1.4rem 0 1.4rem; }
 .music__photo img { border-radius: var(--radius); box-shadow: 0 14px 34px rgba(0,0,0,.45); border: 1px solid rgba(243,200,106,.35); }
 @media (max-width: 860px) { .silicon__band { grid-template-columns: repeat(2, 1fr); } .silicon__band div:nth-child(2) { border-right: 0; } .silicon__band div:nth-child(-n+2) { border-bottom: 1px solid rgba(255,255,255,.14); } }
+
+.poetry__book { display: flex; align-items: center; gap: 1rem; margin-top: 1.6rem; text-decoration: none; color: var(--ink); }
+.poetry__book img { width: 120px; border-radius: 3px 8px 8px 3px; box-shadow: 0 10px 24px rgba(16,32,74,.22); transition: transform .25s; }
+.poetry__book:hover img { transform: translateY(-4px) rotate(-1deg); }
+.poetry__book b { font: 700 1.3rem var(--serif); color: var(--saffron); }
+.poetry__book small { color: var(--gold); font-weight: 600; }
