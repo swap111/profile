@@ -410,3 +410,8 @@ blockquote {
 .poetry__book:hover img { transform: translateY(-4px) rotate(-1deg); }
 .poetry__book b { font: 700 1.3rem var(--serif); color: var(--saffron); }
 .poetry__book small { color: var(--gold); font-weight: 600; }
+
+.shelf__next { text-align: center; margin: 1.6rem 0 .4rem; color: var(--ink-soft); }
+.shelf__next span { display: inline-block; margin-right: .4rem; padding: .15rem .6rem; border-radius: 999px; font-size: .72rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--saffron); border: 1px solid var(--saffron); }
+.shelf__next b, .poetry__next b { font-family: var(--serif); color: var(--saffron); }
+.poetry__next { margin-top: .9rem; color: var(--ink-soft); font-size: .95rem; }

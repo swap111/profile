@@ -88,6 +88,7 @@ BOOKS = [
     ("Python — a Kid's and Hardware Engineer's Perspective", "Technology, 2012 (ISBN 9781300339403)"),
     ("Understanding Indian Music through Rhythms", "Music course book, 2016 (ISBN 9781365588259)"),
     ("Noorana", "Hindi poetry (bhaav sangrah), as \"Sopaan Noor\""),
+    ("Chuski", "Hindi poetry, in progress"),
 ]
 ARTICLES = [
     "Mungi Udali Akashi: When the Small Transcends the Infinite (LinkedIn, Nov 2026)",
@@ -116,7 +117,7 @@ MUSIC = [
 
 POETRY = [
     "Writes Hindi poetry as \"Noor\" (light) and \"Sopaan Noor\" (steps of light): ghazals, nazms, geet and "
-    "bhajans about love, longing, devotion, family, Dharma and everyday joy. Collection: \"Noorana\" (bhaav sangrah).",
+    "bhajans about love, longing, devotion, family, Dharma and everyday joy. Collection: \"Noorana\" (bhaav sangrah); next, \"Chuski\" (in progress).",
     "Honoured as a \"Literary Colonel\" for promoting Hindi literature. Organizes Kavi Sammelans and poetry "
     "ensembles, and often sets his own verse to tune and taal.",
 ]

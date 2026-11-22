@@ -16,7 +16,7 @@ Swapnil Sapre has spent **24+ years** in semiconductors and embedded systems, ta
 | **Now** | Head – Chip and Systems Engineering, **Ambient Scientific**: AI-processor chip, system and system software, spec to volume (2020–) · Independent consultant & advisor (2026–) |
 | **Before** | Western Digital (system architect, product line manager: SD / microSD / SSD / NVMe) · AMD · Freescale/NXP · Mindtree · Wipro |
 | **Builds** | [Chiluka](https://chiluka.online) · [SwaraKul](https://swarakul.online) · **Damruki**: School of Rhythm & Seven Swaras (founder) · [**Suphala Care**](https://suphalacare.com): holistic nutrition & wellness with Dr Suguna Sapre, plus the [SuViva](https://suphalacare.com/suviva/) network |
-| **Writes** | *Nuts and Bolts of Open Hardware* · *Python — a Kid's and Hardware Engineer's Perspective* · *Understanding Indian Music through Rhythms* · Hindi poetry *Noorana* (bhaav sangrah, as "Sopaan Noor") |
+| **Writes** | *Nuts and Bolts of Open Hardware* · *Python — a Kid's and Hardware Engineer's Perspective* · *Understanding Indian Music through Rhythms* · Hindi poetry *Noorana* (bhaav sangrah, as "Sopaan Noor"); *Chuski* in progress |
 | **Plays** | Tabla (Khairagarh, Shri Suresh Samant, Dr. Aneesh Pradhan) and Mridangam (late Dr. Nandyala Ramamurthy) · album *Raam Gunjan* |
 | **Sings** | Ghazal & nazm, bhajan, abhang, kirtan, Hindustani and Carnatic repertoire, folk and film |
 | **Honours** | Recognized by the President of India (paper on re-engineering engineering education) · "Literary Colonel" (Hindi literature) · Freescale "BRAVO" award |
