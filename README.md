@@ -13,7 +13,7 @@ Swapnil Sapre has spent **24+ years** in semiconductors and embedded systems, ta
 
 | | |
 |---|---|
-| **Now** | AVP – Engineering, ultra-low-power edge-AI processors (2020–) · Independent consultant & advisor (2026–) |
+| **Now** | AVP – Engineering, **Ambient Scientific**: AI-processor chip, system and system software, spec to volume (2020–) · Independent consultant & advisor (2026–) |
 | **Before** | Western Digital (system architect, product line manager: SD / microSD / SSD / NVMe) · AMD · Freescale/NXP · Mindtree · Wipro |
 | **Builds** | [Chiluka](https://chiluka.online) · [SwaraKul](https://swarakul.online) · **Damruki**: School of Rhythm & Seven Swaras (founder) · [**Suphala Care**](https://suphalacare.com): holistic nutrition & wellness with Dr Suguna Sapre, plus the [SuViva](https://suphalacare.com/suviva/) network |
 | **Writes** | *Nuts and Bolts of Open Hardware* · *Python — a Kid's and Hardware Engineer's Perspective* · *Understanding Indian Music through Rhythms* · Hindi poetry *Noorana* and *Chuski* (as "Noor" / "Sopaan Noor") |

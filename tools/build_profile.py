@@ -36,7 +36,9 @@ ABOUT = [
     "manufacturing. He has held engineering and product roles at Ambient Scientific, Western Digital, "
     "AMD, Freescale/NXP, Mindtree and Wipro, which gives him an end-to-end view from system architecture "
     "and silicon to software, productization and commercial deployment.",
-    "Today he leads engineering for ultra-low-power edge-AI silicon and advises deep-tech startups and "
+    "Today he is AVP – Engineering at Ambient Scientific, the AI processor company, where he leads the full "
+    "silicon-to-system journey of ultra-low-power AI processors: chip, boards, system software (SDK) and "
+    "production, with cross-functional teams and global partners. He also advises deep-tech startups and "
     "emerging technology organizations on turning ideas into viable, scalable, market-ready products. "
     "He builds ventures where technology meets culture, music and well-being, and he mentors engineers "
     "and founders.",
@@ -73,7 +75,7 @@ EXPERTISE = [
 
 CAREER = [
     ("2026 – now", "Consultant & Advisor", "Independent", "Part-time engagements in FPGA prototyping, deep-tech GTM, AI vision chips, cryogenic ICs, AR/VR learning, and teaching."),
-    ("2020 – now", "AVP – Engineering", "Ambient Scientific", "Silicon-to-system lifecycle for ultra-low-power AI processors: spec to GDS2, verification and validation, bring-up, boards, SDK and production."),
+    ("2020 – now", "AVP – Engineering", "Ambient Scientific", "Leads the full silicon-to-system lifecycle of ultra-low-power AI processors at the AI processor company: chip spec to GDS2, pre- and post-silicon verification and validation, bring-up, SDK and system software, test/evaluation/customer boards, and tape-out to high-volume production; built the always-on audio wake-word and vision validation methodology that opened the platform to ML developers; leads cross-functional chip, system and software teams with global partners."),
     ("2012 – 2020", "System Architect, Technologist & Product Line Manager", "Western Digital", "Flash-storage products (SD, microSD, SSD, NVMe) from SoC architecture to certified shipping product; ran the SD/microSD line."),
     ("2011 – 2012", "Senior Design Engineer", "AMD", "Fusion SoC verification; led the global graphics OVC; DDR3 PHY DFx."),
     ("2007 – 2011", "Module Lead", "Mindtree", "DMA controller architecture, a configurable SoC verification platform, DO-254 IP; clients included Intel and Nokia."),

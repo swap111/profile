@@ -395,3 +395,14 @@ blockquote {
   .vgrid { grid-template-columns: repeat(2, 1fr); gap: .7rem; }
   .articles, .hobbies, .repertoire, .poetry__grid { grid-template-columns: 1fr; }
 }
+
+/* silicon / Ambient Scientific spotlight */
+.silicon { background: linear-gradient(180deg, var(--bg) 0%, var(--bg-tint) 100%); }
+.silicon__band { display: grid; grid-template-columns: repeat(4, 1fr); margin: 0 0 1.6rem; border-radius: var(--radius); overflow: hidden; background: #10204a; color: #fff; }
+.silicon__band div { padding: 1.2rem 1.3rem; border-right: 1px solid rgba(255,255,255,.14); }
+.silicon__band div:last-child { border-right: 0; }
+.silicon__band b { display: block; font: 700 1.3rem var(--serif); color: #f3c86a; }
+.silicon__band span { font-size: .86rem; color: #c9cddb; }
+.music__photo { margin: 1.4rem 0 1.4rem; }
+.music__photo img { border-radius: var(--radius); box-shadow: 0 14px 34px rgba(0,0,0,.45); border: 1px solid rgba(243,200,106,.35); }
+@media (max-width: 860px) { .silicon__band { grid-template-columns: repeat(2, 1fr); } .silicon__band div:nth-child(2) { border-right: 0; } .silicon__band div:nth-child(-n+2) { border-bottom: 1px solid rgba(255,255,255,.14); } }
