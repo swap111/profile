@@ -16,7 +16,7 @@
   if (yr) yr.textContent = new Date().getFullYear();
 
   if ('IntersectionObserver' in window) {
-    var els = document.querySelectorAll('.section h2, .card, .book, .timeline li, .newsletter, .video');
+    var els = document.querySelectorAll('.section h2, .card, .focus__item, .book, .timeline li, .newsletter, .video');
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }

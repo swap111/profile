@@ -37,7 +37,7 @@ ABOUT = [
     "and silicon to software, productization and commercial deployment.",
     "Today he leads engineering for ultra-low-power edge-AI silicon and advises deep-tech startups and "
     "emerging technology organizations on turning ideas into viable, scalable, market-ready products. "
-    "He builds ventures of his own where technology meets culture and learning, and he mentors engineers "
+    "He builds ventures where technology meets culture, music and well-being, and he mentors engineers "
     "and founders.",
     "He is also a trained Tabla and Mridangam player, the composer of the bhajan album \"Raam Gunjan\", "
     "the founder of the Damruki school of rhythm, and a Hindi poet who writes as \"Noor\" / \"Sopaan Noor\".",
@@ -47,7 +47,8 @@ QUOTE = "Building technology with purpose, businesses with responsibility, teams
 VENTURES = [
     ("Chiluka (chiluka.online)", "A dharmic companion for the family: tradition, faithfully told. Includes guidance services and an installable app."),
     ("SwaraKul (swarakul.online)", "A lineage-centred platform connecting students with gurus of Indian classical music. \"Every swara counts.\""),
-    ("Damruki: School of Rhythm & Seven Swaras", "Hindustani and Carnatic music and percussion for learners from many backgrounds; formerly Rhythm Seven."),
+    ("Damruki: School of Rhythm & Seven Swaras (founder)", "Hindustani and Carnatic music and percussion (Tabla, Mridangam) for learners of every background; formerly Rhythm Seven. Personal learning paths, workshops and concert tours, and music for well-being rooted in Nada Yoga."),
+    ("Suphala Care (suphalacare.com)", "Holistic nutrition and wellness practice of Dr Suguna Sapre (PhD, renal nutrition): personal food plans for weight, women's health, children, seniors and chronic conditions. Co-builder of its digital platform, booking, programmes and the SuViva network of complementary practitioners."),
     ("Industry showcases", "Proof-of-concept products for MWC 2018/2019 and COMPUTEX 2019, including a 1 TB SD card and the first SD-form-factor NVMe card."),
 ]
 
