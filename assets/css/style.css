@@ -242,14 +242,6 @@ blockquote {
   .skills { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 860px) {
-  .nav__toggle { display: block; }
-  .nav__menu {
-    position: absolute; top: 64px; left: 0; right: 0; flex-direction: column; align-items: stretch; gap: 0;
-    background: var(--bg); border-bottom: 1px solid var(--line); padding: .5rem 16px 1rem; display: none;
-  }
-  .nav__menu.open { display: flex; }
-  .nav__menu a { padding: .7rem 0; }
-  .nav__menu .btn { justify-content: center; margin-top: .5rem; }
   .hero__in, .grid-2, #music .grid-2, .edu { grid-template-columns: 1fr; }
   .hero__photo { order: -1; width: min(260px, 70%); }
   .stats { grid-template-columns: repeat(2, 1fr); }
@@ -431,7 +423,7 @@ blockquote {
 .explore a:hover { transform: translateY(-4px); color: var(--ink); }
 .explore h3 { font-size: 1.08rem; margin: .1rem 0 .4rem; }
 .explore p { font-size: .9rem; color: var(--ink-soft); margin: 0 0 .9rem; }
-.assoc { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem; }
+.assoc { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
 .assoc__card { position: relative; display: flex; flex-direction: column; text-decoration: none; color: var(--ink); background: var(--surface);
   border: 1px solid var(--line); border-radius: var(--radius); padding: 1.4rem 1.3rem; box-shadow: var(--shadow); transition: transform .2s, box-shadow .2s; }
 .assoc__card:hover { transform: translateY(-4px); color: var(--ink); box-shadow: 0 16px 34px rgba(16,32,74,.16); }
@@ -452,3 +444,19 @@ blockquote {
 @media (max-width: 1100px) { .explore { grid-template-columns: repeat(3, 1fr); } .assoc { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 760px) { .explore { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .explore, .assoc { grid-template-columns: 1fr; } }
+.assoc__mono--ket { background: linear-gradient(135deg, #2e7d6b, #10204a); }
+.card__link--muted { color: var(--muted); font-weight: 500; }
+
+/* menu: one line on wide screens, hamburger below 1040px */
+.nav__menu a { white-space: nowrap; }
+@media (max-width: 1040px) {
+  .nav__toggle { display: block; }
+  .nav__menu {
+    position: absolute; top: 64px; left: 0; right: 0; flex-direction: column; align-items: stretch; gap: 0;
+    background: var(--bg); border-bottom: 1px solid var(--line); padding: .5rem 16px 1rem; display: none;
+  }
+  .nav__menu.open { display: flex; }
+  .nav__menu a { padding: .7rem 0; }
+  .nav__menu .btn { justify-content: center; margin-top: .5rem; }
+  .nav__menu a[aria-current="page"]:not(.btn) { box-shadow: none; }
+}

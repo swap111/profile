@@ -59,14 +59,13 @@ VENTURES = [
 ADVISOR_TO = [
     ("Yadot (yadot.ai)", "Strategic Advisor · music learning through robotics, XR and AI"),
     ("Mobil-Flex (mobil-flex.com)", "Advisor · PDC Personal Data Center, affordable edge HPC"),
-    ("Invariant Systems (invariantsystems.io)", "Advisor · verification for AI-assisted chip design"),
-    ("Qailash Labs (qailash.com)", "Advisor · sovereign custom silicon and sensor readout"),
+    ("Ketuna", "Skilling & mentoring partner · semiconductor, embedded, product and system skilling"),
 ]
 ADVISORY_AREAS = ("Semiconductor engineering · Embedded & system engineering · Operations & production (foundry, OSAT, "
                   "test, qualification, HVM) · Production skilling · Soft skills & leadership · Ongoing professional "
                   "support (due diligence, design and program reviews, team building)")
 SERVICES = [
-    ("Deep-tech & semiconductor advisory", "FPGA prototyping with PPA trade-offs; chip development, tape-out readiness and production operations; edge-AI platform strategy; extreme-environment microelectronics."),
+    ("Deep-tech & semiconductor advisory", "FPGA prototyping with PPA trade-offs; chip development, tape-out readiness and production operations; edge-AI platform strategy."),
     ("Strategy for startups & services firms", "Deep-tech go-to-market and customer acquisition; L&D strategy; program management; art, music and wellness ventures."),
     ("Coaching & mentoring", "Engineers moving into architecture, product and leadership roles; founders turning a technical idea into a product; part-time faculty."),
     ("Speaking", "PPA as a product decision · Spec to silicon to volume · Bring-up and verification that catch real bugs · Open hardware and India's deep-tech ecosystem · Skilling semiconductor engineers."),
@@ -82,7 +81,7 @@ EXPERTISE = [
 ]
 
 CAREER = [
-    ("2026 – now", "Consultant & Advisor", "Independent", "Strategic advisor to Yadot, Mobil-Flex, Invariant Systems and Qailash Labs. Part-time engagements in FPGA prototyping, deep-tech GTM, AI vision chips, cryogenic ICs, AR/VR learning, and teaching."),
+    ("2026 – now", "Consultant & Advisor", "Independent", "Strategic advisor to Yadot and Mobil-Flex; skilling and mentoring partner of Ketuna (semiconductor, embedded, product and system skilling). Part-time engagements in FPGA prototyping, deep-tech GTM, AI vision chips, AR/VR learning, and teaching."),
     ("2020 – now", "Head – Chip and Systems Engineering", "Ambient Scientific", "Leads the full silicon-to-system lifecycle of ultra-low-power AI processors at the AI processor company: chip spec to GDS2, pre- and post-silicon verification and validation, bring-up, SDK and system software, test/evaluation/customer boards, and tape-out to high-volume production; built the always-on audio wake-word and vision validation methodology that opened the platform to ML developers; leads cross-functional chip, system and software teams with global partners."),
     ("2012 – 2020", "System Architect, Technologist & Product Line Manager", "Western Digital", "Flash-storage products (SD, microSD, SSD, NVMe) from SoC architecture to certified shipping product; ran the SD/microSD line."),
     ("2011 – 2012", "Senior Design Engineer", "AMD", "Fusion SoC verification; led the global graphics OVC; DDR3 PHY DFx."),
