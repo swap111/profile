@@ -75,7 +75,8 @@ Serve it over http as above. If you open `index.html` straight from disk, the Yo
 
 1. Push this repo to GitHub (`swap111/profile`).
 2. **Settings → Pages → Deploy from branch → `main` / root**.
-3. The site appears at `https://swap111.github.io/profile/`. For a custom domain (for example `swapnaloka.in`), add a `CNAME` file and point DNS at GitHub Pages.
+3. Live at **https://swapnaloka.online** (custom domain via the `CNAME` file; `swap111.github.io/profile/` redirects there).
+4. DNS at Hostinger: four `A` records on `@` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`; four `AAAA` records on `@` → `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`; `CNAME` `www` → `swap111.github.io`. Then tick **Enforce HTTPS** in Settings → Pages.
 
 It works the same on any static host (Hostinger, Netlify, Cloudflare Pages). Just upload the folder.
 
