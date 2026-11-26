@@ -465,3 +465,15 @@ blockquote {
 .foot__in > img { width: 150px; height: auto; border-radius: 14px; }
 :root[data-theme="dark"] .foot__in > img { background: #fbf8f2; padding: 6px; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .foot__in > img { background: #fbf8f2; padding: 6px; } }
+
+/* about: journey route */
+.route { list-style: none; margin: 1.8rem 0 0; padding: 0 0 0 1.4rem; position: relative; }
+.route::before { content: ""; position: absolute; left: .42rem; top: .5rem; bottom: .9rem; width: 2px;
+  background: linear-gradient(180deg, var(--saffron), var(--gold) 55%, var(--navy-2)); border-radius: 2px; }
+.route li { position: relative; padding: 0 0 1.05rem .6rem; }
+.route li::before { content: ""; position: absolute; left: -1.28rem; top: .38rem; width: .8rem; height: .8rem; border-radius: 50%;
+  background: var(--bg); border: 2px solid var(--saffron); }
+.route li:last-child::before { background: var(--saffron); box-shadow: 0 0 0 4px color-mix(in srgb, var(--saffron) 25%, transparent); }
+.route b { display: block; font: 600 1.05rem var(--serif); color: var(--ink); }
+.route span { font-size: .88rem; color: var(--muted); }
+.prose .lead-in { font: 600 1.35rem/1.4 var(--serif); color: var(--saffron); margin-bottom: .6rem; }
