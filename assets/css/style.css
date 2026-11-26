@@ -460,3 +460,8 @@ blockquote {
   .nav__menu .btn { justify-content: center; margin-top: .5rem; }
   .nav__menu a[aria-current="page"]:not(.btn) { box-shadow: none; }
 }
+
+/* footer logo: transparent artwork; give it a light tile in dark mode so the navy lettering stays readable */
+.foot__in > img { width: 150px; height: auto; border-radius: 14px; }
+:root[data-theme="dark"] .foot__in > img { background: #fbf8f2; padding: 6px; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .foot__in > img { background: #fbf8f2; padding: 6px; } }
