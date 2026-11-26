@@ -30,7 +30,7 @@ STATS = [("24+", "years in semiconductors & embedded systems"),
          ("4", "books: technology, music, poetry")]
 
 ABOUT = [
-    "His map of India is drawn in railway tickets: Jabalpur, Bhilai–Durg, many small towns, the NCR, "
+    "His map of India is drawn in railway tickets: Jabalpur, Bhilai–Durg, Tikamgarh, Panna, Katni, Chhindwara, the NCR, "
     "Goa and Maharashtra, and Karnataka, home for two decades of building chips and products.",
     "Swapnil Sapre is a semiconductor and systems leader with over 24 years across ASIC/SoC design, "
     "chip architecture, AI processors, embedded systems, product engineering and high-volume "
@@ -115,10 +115,10 @@ PAPERS = [
 ]
 
 MUSIC = [
-    "Began Tabla at six in Bhopal under Shri Sanjay Mishra. Completed a 10-year course at Indira Kala Sangeet "
+    "Began Tabla at six in Bhopal under Shri Sanjay Mishra: ten solid years of tabla in Madhya Pradesh, completing the 10-year course at Indira Kala Sangeet "
     "Vishwavidyalaya, Khairagarh, trained for five years with Shri Suresh Samant in Pune, and has studied for "
     "15 years with Dr. Aneesh Pradhan (Mumbai).",
-    "Trained in Mridangam under the late Vidwan Dr. Nandyala Ramamurthy (Nadabrahma Thyagaraja Ashram, Bengaluru), "
+    "Ten years of Mridangam under the late Vidwan Dr. Nandyala Ramamurthy (Nadabrahma Thyagaraja Ashram, Bengaluru), "
     "bridging the Hindustani and Carnatic rhythm traditions. Has accompanied instrumental and vocal artists and "
     "Kathak, Bharatanatyam and contemporary dance.",
     "Composed and recorded \"Raam Gunjan\" (11 bhajans). Organizes Kavi Sammelans, and teaches through Damruki, where "
