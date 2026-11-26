@@ -30,7 +30,7 @@ STATS = [("24+", "years in semiconductors & embedded systems"),
          ("4", "books: technology, music, poetry")]
 
 ABOUT = [
-    "His map of India is drawn in railway tickets: Jabalpur, Bhilai–Durg, Tikamgarh, Panna, Katni, Chhindwara, the NCR, "
+    "His map of India is drawn in railway tickets: Jabalpur, Tikamgarh, Panna, Katni, Chhindwara, Bhilai–Durg, the NCR, "
     "Goa and Maharashtra, and Karnataka, home for two decades of building chips and products.",
     "Swapnil Sapre is a semiconductor and systems leader with over 24 years across ASIC/SoC design, "
     "chip architecture, AI processors, embedded systems, product engineering and high-volume "
